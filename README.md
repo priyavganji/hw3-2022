@@ -1,2 +1,2 @@
-# hw3-2022
-Homework 3
+# hw3_simple_css
+Starter code for simple css assignment
