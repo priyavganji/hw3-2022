@@ -51,8 +51,10 @@ div.red {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom: 2px solid white;
+    border-left: 5px solid white;
+    border-right: none;
+    border-top: none;
     
 }
 
@@ -60,8 +62,10 @@ div.blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-right: 5px solid white;
+    border-top: 2px solid white;
+    border-left: none;
+    border-bottom: none;
     color: #C4C4C4;
     
 }
@@ -74,18 +78,26 @@ div.yellow {
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
-    color: #707070;
-   
+    border-bottom: 2px solid white;
+    border-left: 5px solid white;
+    border-top: none;
+    border-right: none;
+    
 }
+
+.yellow p{
+    color: #707070;
+}
+
 
 div.green {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-right: 5px solid white;
+    border-top: 2px solid white;
+    border-bottom: none;
+    border-left: none;
     
 }
 
@@ -102,4 +114,5 @@ footer p {
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
+    padding-left: none;
 }
