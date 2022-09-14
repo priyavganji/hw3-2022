@@ -110,8 +110,8 @@ footer {
 footer p {
     font-size: 20px;
     text-align: right;
+    padding-left: 0px;
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
-
 }
